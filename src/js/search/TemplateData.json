@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/6c/3a/fb/6c3afb72-ccec-f0ca-0e2a-c9bd925d64c6/mzi.rclwljjx.tif/592x592bb.webp",
+        "title": "Ikaw Na Nga",
+        "songs": "Willie Revillame"
+    },
+    {
+        "id": 2,
+        "image": "https://t2.genius.com/unsafe/363x363/https%3A%2F%2Fimages.genius.com%2Fcddf6d7bb531c9b23ccb4a719d833ff1.1000x1000x1.png",
+        "title": "As It Was",
+        "songs": "Harry Styles"
+    },
+    {
+        "id": 3,
+        "image": "https://static.stereogum.com/uploads/2021/04/Happier-Than-Ever-1619536903.jpeg",
+        "title": "Happier Than Ever",
+        "songs": "Billie Eilish"
+    }
+]

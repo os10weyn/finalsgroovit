@@ -1,0 +1,26 @@
+.navbar  {
+    background-color: rgb(70, 70, 70);
+    padding: 30.2px;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    position: static;
+    min-width: 393px;
+    bottom: 0%;
+    top: 100px;
+    left: 0;
+    /* border-radius: 2rem; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    /* max-width: 21rem; */
+  }
+  
+  .home-btn, .search-btn, .music-btn {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  a.home-btn:active {
+    background-color: green;
+  }

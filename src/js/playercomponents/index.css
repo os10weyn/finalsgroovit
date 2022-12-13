@@ -1,0 +1,115 @@
+
+
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30px;
+    top: 100px;
+}
+
+.back{
+    color: #fff;
+    font-size: 25px;
+}
+
+.header, .back {
+    margin-right: 35px;
+}
+
+.header > h4 {
+    color: #fff;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 1000px;
+    /* padding-bottom: 15px; */
+}
+
+.c-player {
+    display: block;
+    background: rgb(39, 39, 39);
+    padding: 50px;
+    /* box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgb(255, 255, 255, 0.4); */
+}
+
+.c-player > p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.c-player--details .details-img {
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+    object-fit: cover;
+    padding-top: 2px;
+    padding-bottom: 60px;
+}
+
+.c-player--details .details-img img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 350px;
+    height: 350px;
+    font-size: 100px;
+    /* box-shadow: -6px 6px 10px rgba(0, 0, 0, 0.8),  -6px -6px 12px #58c458; */
+}
+
+.c-player--details .details-title {
+    color: #fff;
+    font-size: 28px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.4); */
+    text-align: center;
+    word-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.c-player--details .details-artist {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.4); */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-player--controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+}
+
+.c-player--controls .play-btn {
+    display: flex;
+    margin:  0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4); */
+    border: none;
+    outline: none;
+    background: #58c458;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
